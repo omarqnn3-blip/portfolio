@@ -7,9 +7,9 @@ export const profile = {
   tagline:
     'Data analyst with a finance and business background. I turn messy operational data into clear dashboards, insights, and decisions across customer behavior, revenue, product performance, margins, and growth.',
   location: 'Open to remote / hybrid',
-  email: 'omar.quinn@example.com',
-  github: 'https://github.com/omarquinn',
-  linkedin: 'https://www.linkedin.com/in/omarquinn',
+  email: 'quinn73@outlook.es',
+  github: 'https://github.com/omarqnn3-blip',
+  linkedin: 'https://www.linkedin.com/in/omar-quinn/',
   resumeUrl: '/Omar_Quinn_CV.pdf', // put Omar_Quinn_CV.pdf in the public/ folder
   targetRoles: [
     'Data Analyst',
@@ -125,7 +125,7 @@ export const projects = [
       'Protect supply and merchandising attention for the top revenue-concentrated products.',
       'Promote the accessory cross-sell at checkout to lift average order value.',
     ],
-    githubUrl: 'https://github.com/omarquinn/ecommerce-sales-analytics',
+    githubUrl: 'https://github.com/omarqnn3-blip/customer-revenue-analytics',
     summaryUrl: '#',
   },
   {
