@@ -82,7 +82,7 @@ export const projects = [
       { src: '/projects/customer-revenue/03-revenue.png', caption: 'Revenue breakdown — MRR by value segment, ARPU by contract, and revenue by tenure.' },
       { src: '/projects/customer-revenue/04-at-risk.png', caption: 'Retention priority — high-value at-risk accounts and the churn-vs-revenue matrix.' },
     ],
-    githubUrl: 'https://github.com/omarquinn/customer-revenue-analytics',
+    githubUrl: 'https://github.com/omarqnn3-blip/customer-revenue-analytics',
     summaryUrl: '/projects/customer-revenue/Customer-Revenue-Analytics.pdf',
   },
   {
