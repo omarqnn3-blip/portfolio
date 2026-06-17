@@ -7,7 +7,7 @@ export const profile = {
   tagline:
     'Data analyst with a finance and business background. I turn messy operational data into clear dashboards, insights, and decisions across customer behavior, revenue, product performance, margins, and growth.',
   location: 'Open to remote / hybrid',
-  email: 'omar.quinn@example.com',
+  email: 'quinn73@outlook.es',
   github: 'https://github.com/omarqnn3-blip',
   linkedin: 'https://www.linkedin.com/in/omar-quinn/',
   resumeUrl: '/Omar_Quinn_CV.pdf', // put Omar_Quinn_CV.pdf in the public/ folder
