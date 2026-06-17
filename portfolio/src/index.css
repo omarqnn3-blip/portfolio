@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-bg text-ink font-sans antialiased;
+  }
+
+  /* Numerals everywhere should align in columns like a spreadsheet */
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+
+  ::selection {
+    background: #0b6e4f;
+    color: #ffffff;
+  }
+}
+
+@layer components {
+  /* mono uppercase section/metric label - the recurring structural device */
+  .eyebrow {
+    @apply font-mono text-xs font-medium uppercase tracking-[0.18em] text-muted;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-md px-4 py-2.5
+      text-sm font-semibold transition-colors duration-150
+      focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent
+      focus-visible:ring-offset-2 focus-visible:ring-offset-bg;
+  }
+
+  .btn-primary {
+    @apply btn bg-ink text-white hover:bg-accent;
+  }
+
+  .btn-ghost {
+    @apply btn border border-line bg-surface text-ink hover:border-ink/30;
+  }
+
+  .card {
+    @apply rounded-xl border border-line bg-surface shadow-tile;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
